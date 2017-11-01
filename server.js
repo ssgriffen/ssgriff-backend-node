@@ -19,3 +19,7 @@ MongoClient.connect(db.url, (err, database) => {
         console.log('We are live on: ' + port);
     });
 });
+
+app.get('/', (req, res) => {
+    res.send({'result': true});
+});
