@@ -1,3 +1,3 @@
 module.exports = {
-    url : "coming soon"
-  };
+    url : process.env.MONGODB_URI
+};

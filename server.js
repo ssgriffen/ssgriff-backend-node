@@ -5,6 +5,7 @@ const db = require('./config/db');
 
 const app = express();
 
+
 // start listenting for requests
 const port = 8000;
 
