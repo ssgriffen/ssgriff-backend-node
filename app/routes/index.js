@@ -1,6 +1,9 @@
-const noteRoutes = require('./notes_routes');
+const blogRoutes = require('./blog_routes');
+const userRoutes = require('./user_routes');
+const mailRoutes = require('./mail_routes');
 
 module.exports = function(app, db) {
-    noteRoutes(app, db);
-    // other route groups could go here, in the future
+    blogRoutes(app, db);
+    userRoutes(app, db);
+    mailRoutes(app, db);
 }

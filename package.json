@@ -10,9 +10,17 @@
   "author": "Sam Griffen",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.144.0",
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "mongodb": "^2.2.33"
+    "express-session": "^1.15.6",
+    "formidable": "^1.1.1",
+    "markdown": "^0.5.0",
+    "mongodb": "^2.2.33",
+    "nodemailer": "^4.3.1",
+    "sanitize-filename": "^1.6.1",
+    "slugify": "^1.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
